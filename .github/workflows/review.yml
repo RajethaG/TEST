@@ -9,8 +9,8 @@ jobs:
    steps:
    - uses: Automattic/action-required-review@v3
      with:
-      token: ${{ secrets.REQUIRED_REVIEWS_TOKEN }}
-      requirements: |
+       token: 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
+       requirements: |
             - paths: unmatched
               teams:
                 - rajethauday98@gmail.com
