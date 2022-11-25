@@ -3,9 +3,9 @@ name: review
 on:
  workflow_dispatch:
  
- jobs:
-   Review:
-   - uses: Automattic/action-required-review@v3
+jobs:
+  Review:
+  - uses: Automattic/action-required-review@v3
      with:
       token: ${{ secrets.REQUIRED_REVIEWS_TOKEN }}
       requirements: |
